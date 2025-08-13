@@ -1,0 +1,19 @@
+1.What happens when the number of hidden nodes increases?
+
+As you increase the number of hidden nodes in the single hidden layer, the model's capacity to learn complex patterns improves. This usually means the model can fit the training data better.
+
+For smaller numbers of hidden nodes (e.g., 1 or 2), the model might not capture the complexity of the data well, resulting in lower accuracy.
+
+Increasing hidden nodes to moderate sizes (e.g., 4, 5) generally improves accuracy.
+
+For very large numbers of hidden nodes (e.g., 20, 50), the model might start to overfit, memorizing the training data rather than generalizing well, or the training might become unstable depending on hyperparameters.
+
+2.Explanation of the accuracy pattern when hidden nodes increase:
+
+Initially, accuracy rises as the model gets more hidden nodes because it has more parameters to capture complex features.
+
+After a point, more hidden nodes may lead to diminishing returns or even decrease accuracy on test data due to overfitting.
+
+The training accuracy typically increases monotonically with more nodes, but test accuracy might peak and then decline.
+
+The exact pattern depends on factors like training iterations, regularization, and data complexity.
